@@ -1,0 +1,7 @@
+*.zip
+*.pth
+*.pt
+*.pkl
+*.pickle
+*.mp4
+wandb/

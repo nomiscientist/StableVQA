@@ -4,7 +4,7 @@ from .head import VQAHead, IQAHead, VARHead
 from .swin_backbone import swin_3d_tiny, swin_3d_small
 from .conv_backbone import convnext_3d_tiny, convnext_3d_small
 from .xclip_backbone import build_x_clip_model
-from .evaluator import BaseEvaluator, BaseImageEvaluator, DiViDeAddEvaluator, StableEvaluator, Stablev2Evaluator, Stablev3Evaluator,StablePixelEvaluator,StableHomoEvaluator
+from .evaluator import BaseEvaluator, Stablev2Evaluator
 
 __all__ = [
     "VQABackbone",
@@ -13,11 +13,5 @@ __all__ = [
     "IQAHead",
     "VARHead",
     "BaseEvaluator",
-    "BaseImageEvaluator",
-    "DiViDeAddEvaluator",
-    "StableEvaluator",
     "Stablev2Evaluator",
-    "Stablev3Evaluator",
-    "StablePixelEvaluator",
-    "StableHomoEvaluator"
 ]
